@@ -14,9 +14,20 @@
 }
   
 nav {
+    display: flex;
+    justify-content: space-between;
     font-family: "roboto";
     background-color: #F4F4F4;
     height: 300px;
+}
+
+.social {
+    display: flex;
+    padding: 23px;
+}
+
+.social a {
+    padding: 0 12px;
 }
 
 .photograph {
