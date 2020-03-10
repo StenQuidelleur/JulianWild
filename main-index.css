@@ -23,6 +23,8 @@ main {
   position: relative;
   text-align: center;
   margin-bottom: 10px;
+  transform: translateY(0px);
+  transition: all 400ms ease;
 }
 
 .image {
@@ -54,6 +56,10 @@ main {
 @media (min-width: 641px) {
   .container-country:hover .overlay {
     opacity:1;
+  }
+
+  .container-country:hover {
+    transform: translateY(-10px);
   }
 
   .overlay {
