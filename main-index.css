@@ -8,6 +8,12 @@ body{
   margin: 0;
 }
 
+main {
+  background-color: #F4F4F4 ;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -16,7 +22,7 @@ body{
 .container-country {
   position: relative;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .image {
@@ -32,7 +38,7 @@ body{
   height: 100%;
   width: 100%;
   opacity: 1;
-  transition: .5s ease;
+  transition: 400ms ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .text-country {
@@ -53,18 +59,21 @@ body{
 
   .overlay {
     opacity: 0;
+    background-color: rgba(0, 157, 165, 0.5);
+  }
+
+  .container-country {
+    margin-bottom: 0;
   }
 
   .container {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 7vh;
+
   }
   
-  .brasil {
-    grid-template: 1 1 / 2 2;
-  }
-
   .text-country {
     font-size: 8vw;
   }
