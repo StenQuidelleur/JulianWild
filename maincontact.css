@@ -8,16 +8,42 @@
 @media screen and (max-width: 640px) {
 
   h1{
+    margin: 20px;
     text-align: left;
   }
 
   body{
-    width: 80%;
+    text-align: center;
+    background-color:#F4F4F4;
   }
 
   form{
-
+    display: inline-block;
   }
+
+  input, textarea, button {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 2px grey;
+    resize: none;
+    border: none;
+  }
+
+  textarea{
+    height: 80px;
+  }
+
+  button {
+    width: 225px;
+  }
+
+  input[type=checkbox] {
+    position: absolute;
+    left: -9999px;
+  }
+
 
 }
 /* FIN DE LA VERSION MOBILE FORMULAIRE */
