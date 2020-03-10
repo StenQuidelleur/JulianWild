@@ -59,6 +59,7 @@ main {
 
   .overlay {
     opacity: 0;
+    background-color: rgba(0, 157, 165, 0.5);
   }
 
   .container-country {
