@@ -8,13 +8,14 @@ body{
   margin: 0;
 }
 
-
+.container {
+  width: 80%;
+  margin: auto;
+}
 
 .container-country {
   position: relative;
   text-align: center;
-  width: 80%;
-  margin: auto;
   margin-bottom: 20px;
 }
 
@@ -55,7 +56,16 @@ body{
   }
 
   .container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+  
+  .brasil {
+    grid-template: 1 1 / 2 2;
+  }
+
+  .text-country {
+    font-size: 8vw;
   }
 }
