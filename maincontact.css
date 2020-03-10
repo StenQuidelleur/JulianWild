@@ -1,5 +1,91 @@
 /* VERSION DESKTOP */
 
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* UNIQUEMENT POUR GET */
+h3{
+  padding: 100px;
+}
+/* UNIQUEMENT POUR GET */
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #141414;
+  text-align: center;
+  background-color:#F4F4F4;
+}
+
+label{
+  display: inline-block;
+}
+
+
+input, textarea, button {
+  font-size: 18px;
+  color: rgb(85, 81, 81);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 50%;
+  box-shadow: 2px 2px 1px rgba(173, 171, 171, 0.5);
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+textarea {
+  height: 300px;
+}
+
+
+button {
+  display: inline-block;
+  width: 55%;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: rgba(170, 169, 169, 0.336)
+}
+
+input[type=checkbox] {
+  margin: -25px;
+  box-shadow: none;
+}
+
+button:hover {
+  border: 2px solid rgb(105, 180, 241);
+  transition: .2s;
+}
+
+
+input:hover {
+  border: 2px solid rgb(105, 180, 241);
+  transition: .2s;
+}
+
+textarea:hover {
+  border: 2px solid rgb(105, 180, 241);
+  transition: .2s;
+}
+
+button:focus {
+  background-color: rgb(105, 180, 241);
+  transition: .2s;
+}
+
+input:focus {
+  background-color: rgba(105, 180, 241, 0.377);
+  transition: .2s;
+}
+
+textarea:focus {
+  background-color: rgba(105, 180, 241, 0.377);
+  transition: .2s;
+}
+
 /* FIN VERSION DESKTOP */
 
 
@@ -7,43 +93,35 @@
 /* MOBILE VERSION FORMULAIRE CSS */
 @media screen and (max-width: 640px) {
 
-  h1{
-    margin: 20px;
-    text-align: left;
-  }
-
-  body{
-    text-align: center;
-    background-color:#F4F4F4;
-  }
-
   form{
     display: inline-block;
   }
 
   input, textarea, button {
+    font-size: 14px;
     padding: 15px;
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     width: 80%;
-    box-shadow: 2px 2px 2px grey;
+    box-shadow: 2px 2px 1px rgba(173, 171, 171, 0.5);
     resize: none;
     border: none;
   }
 
-  textarea{
-    height: 80px;
+  textarea {
+    height: 100px;
   }
 
   button {
-    width: 225px;
+    display: inline-block;
+    width: 95%;
+    font-size: 18px;
+    background-color: rgba(170, 169, 169, 0.336)
   }
 
   input[type=checkbox] {
-    position: absolute;
-    left: -9999px;
+    margin: -35px;
+    box-shadow: none;
   }
-
-
 }
 /* FIN DE LA VERSION MOBILE FORMULAIRE */
