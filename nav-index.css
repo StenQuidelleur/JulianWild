@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("Fonts/roboto/Roboto-Regular.ttf")
+}
+@font-face {
+    font-family: "rambler";
+    src: url("Fonts/the_rambler/The\ Rambler.ttf")
+}
+  
+nav {
+    font-family: "roboto";
+    background-color: #F4F4F4;
+    height: 300px;
+}
+
+.photograph {
+    font-family: "rambler";
+    font-size: 20px;
+}
+
+.topbar {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #141414;
+    transition: color 0.3s;
+}
+
+.topbar a:hover {
+    color: #009DA5;
+}
+
+.topbar input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+.topbar span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: #141414;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;   
+    z-index: 1;
+}
+
+.topbar input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0, 12px) ;
+    background: #232323;
+}
+
+.topbar input:checked ~span:nth-last-child(3) {
+    opacity: 0;
+}
+
+.topbar input:checked ~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -12px);
+}
+
+.topbar-menu {
+    position: absolute;
+    width: 200px;
+    margin: -100px 0 0 -50px;
+    padding: 20px 30px;
+    padding-top: 125px;
+    background-color: #F4F4F4;
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s;
+}
+
+.topbar-menu li {
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.topbar input:checked ~ ul {
+    transform: none;
+} 
