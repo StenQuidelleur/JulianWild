@@ -45,6 +45,7 @@ p{
     width: 30vw;
     height:30vw;
     border-radius: 50%;
+    border: 3px solid #009DA5;
 }
 
 .responsive{
