@@ -1,18 +1,26 @@
+@font-face {
+  font-family: "mexicana";
+  src: url("Fonts/cf_mexicana/CFMexicanaPERSONALUSE-Regul.ttf")
+}
 
 
 body{
   margin: 0;
 }
 
+
+
 .container-country {
   position: relative;
   text-align: center;
   width: 80%;
   margin: auto;
+  margin-bottom: 20px;
 }
 
-img {
+.image {
   width: 100%;
+  display: block;
 }
 .overlay{
   position: absolute;
