@@ -1,0 +1,16 @@
+footer {
+background-color: #009DA5;
+color: #FFFFFF;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-flow: row nowrap;
+
+}
+
+
+.newsletter, .contact-footer, .icon {
+display: inline-flex;
+justify-content: space-around;
+
+}
