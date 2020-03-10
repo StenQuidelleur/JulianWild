@@ -8,7 +8,6 @@ flex-flow: row nowrap;
 
 }
 
-
 .newsletter, .contact-footer, .icon {
 display: inline-flex;
 justify-content: space-around;
