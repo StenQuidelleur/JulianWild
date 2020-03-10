@@ -38,7 +38,7 @@ main {
   height: 100%;
   width: 100%;
   opacity: 1;
-  transition: .5s ease;
+  transition: 400ms ease;
   background-color: rgba(0, 0, 0, 0.5);
 }
 .text-country {
@@ -69,14 +69,10 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 30px;
+    grid-gap: 7vh;
 
   }
   
-  .brasil {
-    grid-template: 1 1 / 2 2;
-  }
-
   .text-country {
     font-size: 8vw;
   }
