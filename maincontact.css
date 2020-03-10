@@ -95,6 +95,7 @@ textarea:focus {
 
   form{
     display: inline-block;
+    width: 80%;
   }
 
   input, textarea, button {
@@ -114,7 +115,7 @@ textarea:focus {
 
   button {
     display: inline-block;
-    width: 95%;
+    width: 90%;
     font-size: 18px;
     background-color: rgba(170, 169, 169, 0.336)
   }
