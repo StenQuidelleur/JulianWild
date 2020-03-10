@@ -1,7 +1,9 @@
-@font-face {
-	font-family: "mexicana";
-  src: url("polices/CFMexicanaPERSONALUSE-Regul.ttf");
+
+
+body{
+  margin: 0;
 }
+
 .container-country {
   position: relative;
   text-align: center;
@@ -32,8 +34,6 @@ img {
   font-family: "mexicana";
   font-size: 15vw;
 }
-   
-
 
   /* Desktop Version */
 @media (min-width: 641px) {
@@ -44,5 +44,10 @@ img {
 
   .overlay {
     opacity: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 }
