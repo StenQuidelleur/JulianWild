@@ -63,7 +63,11 @@ img {
   }
   
   .close {
-    text-decoration:none;float:right;font-size:24px;font-weight:bold;color:white
+    text-decoration:none;
+    float:right;
+    font-size:24px;
+    font-weight:bold;
+    color:white
   }
   
   .modal-content, #img01 {   
