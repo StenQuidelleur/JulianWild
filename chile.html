@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="nav-index.css">
@@ -107,12 +108,26 @@
     </div>
   </div>
 
-  <script>
-    function onClick(element) {
-      document.getElementById("img01").src = element.src;
-      document.getElementById("modal01").style.display = "block";
-    }
-  </script>
+      <footer>
+        <div class="icon-footer">
+          <a class="pinterest-footer" href="https://www.pinterest.com.au/" target="_blank"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+          <a class="instagram-footer" href="https://www.instagram.com/" target="_blank"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+        </div>
+        <div class="contact-footer">
+          <p class="newsletter-footer">Newsletter</p>
+          <input class="email-footer" type="text" name="email" value="" placeholder="email@contact.com">
+          <a href="href="mailto:JWild@gmail.com"" target="_blank"><button class="button" type="button" name="button">Send</button></a>
+        </div>
+        <p><a class="top-footer" href="#top">Back to the top</a></p>
+      </footer>
+
+
+      <script>
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+        }
+      </script>
 
 </body>
 </html>
