@@ -5,64 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="headers.css">
+    <link rel="stylesheet" href="nav-index.css">
     <title>Mexico</title>
 </head>
 <body>
-    <header class=mexico>
-        <h1>MEXICO</h1>
-    </header>
-
-    <div class="container"> 
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image01.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity"/>
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image02.jpg" alt="...2" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image03.jpg" alt="...3" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image04.jpg" alt="...4" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image05.jpg" alt="...5" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image06.jpg" alt="...6" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image07.jpg" alt="...7" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image08.jpg" alt="...8" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image09.jpg" alt="...9" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image10.jpg" alt="...10" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image11.jpg" alt="...11" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/mexico_resized/image12.jpg" alt="...12" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-    
-        <div id="modal01" class="modal" onclick="this.style.display='none'">
-          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <div class="modal-content">
-            <img id="img01">
+  <header>
+    <nav class="menu-burger">
+        <div class="topbar">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="topbar-menu">
+                <li><a href="index.html" class="photograph">Julian Wild</a></li>
+                <li class="country"><a href="#">Country ></a>
+                    <ul>
+                        <li><a href="brasil.html">Brasil</a></li>
+                        <li><a href="chile.html">Chile</a></li>
+                        <li><a href="mexico.html">Mexico</a></li>
+                        <li><a href="peru.html">Peru</a></li>
+                    </ul>  
+                </li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
-      </div>
-    
-      <script>
-        function onClick(element) {
-          document.getElementById("img01").src = element.src;
-          document.getElementById("modal01").style.display = "block";
-        }
-      </script>
+        <div class="julian">
+            <a href="index.html">JW</a>
+        </div>
+        <div class="social">
+            <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+            <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+        </div>
+    </nav>
+    <nav class="nav-bar">
+        <a href="index.html" class="photograph">Julian Wild</a>
+        <div class="scrol">
+        <li class="country"><a href="#">Country</a>
+            <ul>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="chile.html">Chile</a></li>
+                <li><a href="mexico.html">Mexico</a></li>
+                <li><a href="peru.html">Peru</a></li>
+            </ul>  
+        </li>
+        </div>
+        <a href="biography.html">Biography</a>
+        <a href="contact.html">Contact</a>
+        <div class="social">
+        <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+        <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+        </div>
+    </nav>
+    <div id="baner" class="mexico">
+      <h1>MEXICO</h1>
+    </div>
+  </header>
+  
+
+  <div class="container"> 
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image01.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity"/>
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image02.jpg" alt="...2" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image03.jpg" alt="...3" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image04.jpg" alt="...4" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image05.jpg" alt="...5" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image06.jpg" alt="...6" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image07.jpg" alt="...7" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image08.jpg" alt="...8" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image09.jpg" alt="...9" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image10.jpg" alt="...10" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image11.jpg" alt="...11" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+    <figure class="container1">
+      <img src="ImagesPages/mexico_resized/image12.jpg" alt="...12" onclick="onClick(this)" class="modal-hover-opacity" />
+    </figure>
+
+    <div id="modal01" class="modal" onclick="this.style.display='none'">
+      <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+      <div class="modal-content">
+        <img id="img01">
+    </div>
+  </div>
+  
+  <script>
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+    }
+  </script>
 
 </body>
 </html>
