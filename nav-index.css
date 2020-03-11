@@ -12,15 +12,53 @@
     font-family: "rambler";
     src: url("Fonts/the_rambler/The\ Rambler.ttf")
 }
+
+header a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
   
-nav {
+.menu-burger {
     display: flex;
     justify-content: space-between;
     font-family: "roboto";
     color: #FFFFFF;
-    background: no-repeat center center / cover url(ImagesPages/landing_resized/image05.jpg);
-    height: 600px;
-    margin-bottom: 50px;
+}
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    
+    div#slider { 
+      overflow: hidden;
+    }
+  
+    div#slider figure img { 
+      width: 20%; 
+      float: left; 
+    }
+  
+    div#slider figure { 
+      position: relative;
+      width: 500%;
+      margin: 0;
+      left: 0;
+      text-align: left;
+      font-size: 0;
+      animation: 30s slidy infinite; 
+    }
+
+#slider {
+    position: relative;
 }
 
 .julian {
@@ -41,6 +79,12 @@ nav {
 .photograph {
     font-family: "rambler";
     font-size: 50px !important;
+}
+
+.menu-burger{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
 }
 
 .topbar {
@@ -141,3 +185,54 @@ nav {
 .topbar input:checked ~ ul {
     transform: none;
 } 
+
+.nav-bar {
+    display: none;
+}
+
+@media only screen and (min-width: 641px) {
+    .menu-burger {
+        display: none;
+    }
+    
+    .julian {
+        display: none;
+    }
+
+    .nav-bar {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-family: 'roboto';
+        height: 70px;
+        width: 100%;
+        z-index: 999;
+    }
+
+    .scrol ul {
+        display: none;
+        list-style-type: none; 
+        margin: 0px;
+        padding-top: 10px;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .scrol li {
+        list-style-type: none; 
+    }
+
+    .scrol li:hover ul {
+        display: block ;
+        position: absolute;
+        padding: 0px 10px ;
+        z-index: 101; 
+    }
+
+    .photograph {
+        font-size: 70px !important;
+    }
+}
