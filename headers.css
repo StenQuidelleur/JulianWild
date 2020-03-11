@@ -1,0 +1,114 @@
+
+@font-face{
+	font-family: 'Mexicana';
+	src:url('Fonts/cf_mexicana/CFMexicanaPERSONALUSE-Regul.ttf');
+	}
+
+
+header{
+	width:110%;
+	height:255px;
+	margin:-22px;
+	padding-top:70px;
+	
+	}
+
+	header.brasil{background-image: url('ImagesPages/title_resized/dessert-74568_1920.jpg');
+	background-size: cover;}
+	header.chile{background-image: url('ImagesPages/title_resized/chile-693065.jpg');
+	background-size: cover;}
+	header.mexico{background-image: url('ImagesPages/title_resized/landscape-695030.jpg');
+	background-size: cover;}
+	header.peru{background-image: url('ImagesPages/title_resized/peru-2532604.jpg');
+	background-size: cover;}
+	header.contact, header.bio{background-color: #009DA5;}
+
+	
+	h1{
+		position: relative;
+    	/*left: 22%;*/
+     	top: 12%;
+		font-family: 'Mexicana';
+		font-size:5rem; 
+		font-weight:lighter;
+		margin-left: 250px;
+		color: white;		
+		}
+
+
+	img.biocircle{opacity: 0;
+		}
+
+
+	h1.tit_biode, h1.tit_contactde{
+			position: absolute;
+			/*color: #141414;*/
+			color: white;
+			opacity: 1;}
+	h1.tit_biomo, h1.tit_contactmo{opacity: 0;}
+
+
+@media(max-width:641px){
+	
+
+	header{
+			width:110%;
+			height:255px;
+			margin:-22px;
+			padding-top:70px;
+	
+		}
+
+	header.bio{position: relative;
+	
+		}
+
+
+
+	h1{ 
+		text-align: center;
+		margin-left: 10px;
+     	top: 22%;
+     	top:30px;
+		font-family: 'Mexicana';
+		font-size:3.5rem; 
+		font-weight:lighter;
+		color: white;
+		}
+
+
+	h1.tit_biode, h1.tit_contactde{
+		opacity: 0;
+		}
+	h1.tit_biomo{
+				opacity: 1;
+				/*color: #141414;*/
+				color: white;
+				text-align: none;
+				position: absolute;
+				top:120px;
+				left: 248px;
+				}
+
+
+	h1.tit_contactmo{
+				opacity: 1;
+				text-align: left;
+				width: 300px;
+				position: absolute;
+				top:90px; 
+				left:100px;
+				
+				}			
+	img.biocircle{
+				opacity: 1;
+				position: absolute;
+				top: 80px; left: 42px;
+				width: 217px;height: 217px;
+				border-radius: 50%;
+				object-fit: cover;
+				object-position: center;
+				}
+		
+
+					}
