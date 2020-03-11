@@ -6,6 +6,7 @@ button {
   background-color: #FFFFFF;
   color: #009DA5;
 
+
 }
 
 footer {
@@ -26,7 +27,7 @@ flex-flow: row nowrap;
 .button:focus {
   color: #FFFFFF;
   background-color: #009DA5;
-
+  outline: none;
 }
 
 .contact-footer {
@@ -39,6 +40,7 @@ flex-flow: row nowrap;
   height: 1.5rem;
   border: thin;
   margin-left: 10px;
+  outline: none;
 }
 
 
