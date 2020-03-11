@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("Fonts/roboto/Roboto-Regular.ttf")
+}
+@font-face {
+    font-family: "rambler";
+    src: url("Fonts/the_rambler/The\ Rambler.ttf")
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: "roboto";
+    color: #FFFFFF;
+    background: no-repeat center center / cover url(ImagesPages/landing_resized/image05.jpg);
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.julian {
+    font-family: "rambler";
+    font-size: 60px;
+    padding: 25px;
+    margin-left: 70px;
+}
+
+.social {
+    padding: 50px 20px;
+}
+
+.social a {
+    padding: 0 12px;
+}
+
+.photograph {
+    font-family: "rambler";
+    font-size: 50px !important;
+}
+
+.topbar {
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    z-index: 1;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: color 0.3s;
+}
+
+.topbar a:hover {
+    color: #009DA5;
+}
+
+.topbar input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+}
+
+.topbar span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;   
+    z-index: 1;
+}
+
+.topbar input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(0, 12px) ;
+    background: #FFFFFF;
+}
+
+.topbar input:checked ~span:nth-last-child(3) {
+    opacity: 0;
+}
+
+.topbar input:checked ~span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -12px);
+}
+
+.topbar-menu {
+    position: absolute;
+    width: 200px;
+    margin: -100px 0 0 -50px;
+    padding: 20px 0px 3px 30px;
+    padding-top: 125px;
+    background: rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s;
+}
+
+.topbar-menu li {
+    position: relative;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.country li {
+    padding: 10px 0;
+}
+
+.topbar-menu ul {
+    display: none;
+    list-style-type: none; 
+    margin: 0px;
+    padding-top: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.topbar-menu li:hover ul {
+    display: block ;
+    position: absolute;
+    padding: 0px 10px ;
+    top: 0px; 
+    left: 170px; 
+    z-index: 100; 
+}
+
+.topbar input:checked ~ ul {
+    transform: none;
+} 
