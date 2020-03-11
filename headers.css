@@ -5,7 +5,7 @@
 	}
 
 
-header{
+#baner{
 	width:110%;
 	height:255px;
 	margin:-22px;
@@ -13,15 +13,15 @@ header{
 	
 	}
 
-	header.brasil{background-image: url('ImagesPages/title_resized/dessert-74568_1920.jpg');
+	#baner.brasil{background-image: url('ImagesPages/title_resized/dessert-74568_1920.jpg');
 	background-size: cover;}
-	header.chile{background-image: url('ImagesPages/title_resized/chile-693065.jpg');
+	#baner.chile{background-image: url('ImagesPages/title_resized/chile-693065.jpg');
 	background-size: cover;}
-	header.mexico{background-image: url('ImagesPages/title_resized/landscape-695030.jpg');
+	#baner.mexico{background-image: url('ImagesPages/title_resized/landscape-695030.jpg');
 	background-size: cover;}
-	header.peru{background-image: url('ImagesPages/title_resized/peru-2532604.jpg');
+	#baner.peru{background-image: url('ImagesPages/title_resized/peru-2532604.jpg');
 	background-size: cover;}
-	header.contact, header.bio{background-color: #009DA5;}
+	#baner.contact, #baner.bio{background-color: #009DA5;}
 
 	
 	h1{
@@ -51,7 +51,7 @@ header{
 @media(max-width:641px){
 	
 
-	header{
+	#baner{
 			width:110%;
 			height:255px;
 			margin:-22px;
@@ -59,7 +59,7 @@ header{
 	
 		}
 
-	header.bio{position: relative;
+	#baner.bio{position: relative;
 	
 		}
 
