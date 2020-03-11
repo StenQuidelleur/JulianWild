@@ -3,12 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="headers.css">
+    <link rel="stylesheet" href="gallery.css">
     <title>Peru</title>
 </head>
 <body>
        <header class=peru>
         <h1>PERU</h1>
     </header>
+  
+    <div class="container"> 
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image01.jpg" alt="...2" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image02.jpg" alt="...3" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image03.jpg" alt="...4" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image04.jpg" alt="...5" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image05.jpg" alt="...6" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image06.jpg" alt="...7" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image07.jpg" alt="...8" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image08.jpg" alt="...9" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image09.jpg" alt="...10" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image10.jpg" alt="...11" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image11.jpg" alt="...12" onclick="onClick(this)" class="modal-hover-opacity" />
+        </figure>
+        <figure class="container1">
+          <img src="ImagesPages/peru_resized/image12.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity"/>
+        </figure>
+    
+        <div id="modal01" class="modal" onclick="this.style.display='none'">
+          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+          <div class="modal-content">
+            <img id="img01">
+        </div>
+      </div>
+    
+      <script>
+        function onClick(element) {
+          document.getElementById("img01").src = element.src;
+          document.getElementById("modal01").style.display = "block";
+        }
+      </script>
+
 </body>
 </html>
