@@ -3,8 +3,8 @@ button {
   height: 27px;
   width: 80px;
   margin-left: 10px;
-  background-color: #DCDCDC;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #009DA5;
 
 }
 
@@ -15,6 +15,17 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-flow: row nowrap;
+
+}
+
+.button:hover {
+  opacity: 0.5;
+
+}
+
+.button:focus {
+  color: #FFFFFF;
+  background-color: #009DA5;
 
 }
 
