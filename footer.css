@@ -18,11 +18,11 @@ footer {
   font-family: "roboto";
 }
 
-.button:hover {
+.button-footer:hover {
   opacity: 0.5;
 }
 
-.button:focus {
+.button-footer:focus {
   color: #FFFFFF;
   background-color: #009DA5;
   outline: none;
@@ -34,7 +34,7 @@ footer {
   justify-content: space-around;
 }
 
-.email {
+.email-footer {
   border-radius: 5px;
   height: 27px;
   border: thin;
@@ -42,16 +42,16 @@ footer {
   outline: none;
 }
 
-.icon {
+.icon-footer {
   display: flex;
   justify-content: space-between;
 }
 
-.instagram, .pinterest {
+.instagram-footer, .pinterest-footer {
   padding: 0 12px;
 }
 
-.top {
+.top-footer {
   color: #FFFFFF;
 }
 
