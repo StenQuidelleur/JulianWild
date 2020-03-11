@@ -6,6 +6,7 @@ button {
   background-color: #FFFFFF;
   color: #009DA5;
 
+
 }
 
 footer {
@@ -15,6 +16,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 flex-flow: row nowrap;
+padding: 10px;
 
 }
 
@@ -26,26 +28,32 @@ flex-flow: row nowrap;
 .button:focus {
   color: #FFFFFF;
   background-color: #009DA5;
-
+  outline: none;
 }
 
 .contact-footer {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .email {
   border-radius: 5px;
-  height: 1.5rem;
+  height: 27px;
   border: thin;
   margin-left: 10px;
+  outline: none;
 }
 
 
-.contact-footer, .icon {
-display: inline-flex;
-justify-content: space-around;
+.icon {
+  display: flex;
+  justify-content: space-between;
 
+}
+
+.instagram, .pinterest {
+  padding: 0 12px;
 }
 
 .top {
