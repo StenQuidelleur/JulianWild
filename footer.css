@@ -5,24 +5,21 @@ button {
   margin-left: 10px;
   background-color: #FFFFFF;
   color: #009DA5;
-
-
 }
 
 footer {
-background-color: #009DA5;
-color: #FFFFFF;
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-flow: row nowrap;
-padding: 10px;
-
+  background-color: #009DA5;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row nowrap;
+  padding: 10px;
+  font-family: "roboto";
 }
 
 .button:hover {
   opacity: 0.5;
-
 }
 
 .button:focus {
@@ -45,11 +42,9 @@ padding: 10px;
   outline: none;
 }
 
-
 .icon {
   display: flex;
   justify-content: space-between;
-
 }
 
 .instagram, .pinterest {
@@ -58,4 +53,10 @@ padding: 10px;
 
 .top {
   color: #FFFFFF;
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    display: none;
+  }
 }
