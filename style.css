@@ -22,6 +22,12 @@ a {
 }
 
 body {
-  width: 80%;
   background-color: #F4F4F4;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
