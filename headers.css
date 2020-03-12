@@ -59,7 +59,9 @@ header{
 	
 		}
 
-	header.bio{position: relative;
+	header.bio{
+		/*display: flex;*/
+		position: relative;
 	
 		}
 
@@ -104,7 +106,7 @@ header{
 				opacity: 1;
 				position: absolute;
 				top: 80px; left: 42px;
-				width: 217px;height: 217px;
+				width: 40vw;height: 40vw;
 				border-radius: 50%;
 				object-fit: cover;
 				object-position: center;
