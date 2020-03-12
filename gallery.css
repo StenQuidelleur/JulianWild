@@ -1,5 +1,4 @@
 .text {
-  width: 80%;
   margin: auto;
   display: grid;
   grid-template-columns: auto auto;
@@ -55,7 +54,6 @@
   margin: auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 80%;
 }
 
 .container1 {
@@ -74,11 +72,21 @@
   .container {
     grid-template-columns: auto auto;
   }
+
+  .modal, .modal-content
+   {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .container {
     grid-template-columns: auto;
+  }
+
+  .modal, .modal-content
+   {
+    display: none;
   }
 }
 
@@ -88,17 +96,16 @@
     display:none;
     padding-top:10px;
     position:fixed;
-    width:80%;
-    left: 10%;
+    top: 10%;
+    width: 70%;
+    left: 15%;
     overflow:auto;
-    background-color:rgb(0,0,0);
-    background-color:
+    background-color:#00000069;
   }
   
   .modal-content{
     margin: auto;
     display: block;
-    width: 90%;
     left: 50%;
   }
 
@@ -127,6 +134,7 @@
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+    width: 100%;
   }
   
   @-webkit-keyframes zoom {

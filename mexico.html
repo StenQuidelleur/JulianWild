@@ -111,6 +111,7 @@
             <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             <div class="modal-content">
               <img id="img01">
+            </div>
           </div>
         </div>
       </main>
@@ -127,7 +128,7 @@
         <p><a class="top-footer" href="#top">Back to the top</a></p>
       </footer>
       <script>
-        function onClick(element) {
+        onClick = (element) => {
           document.getElementById("img01").src = element.src;
           document.getElementById("modal01").style.display = "block";
         }
