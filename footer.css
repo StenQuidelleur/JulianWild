@@ -59,6 +59,18 @@ footer {
   padding: 0 12px;
 }
 
+.instagram-footer:hover {
+  opacity: 0.5;
+
+}
+
+.pinterest-footer:hover {
+  opacity: 0.5;
+
+}
+
+
+
 .newsletter-footer {
   font-size: 20px;
 }
