@@ -116,7 +116,8 @@
         grid-row-end: 5;
     }
     .modal,
-    .modal-content {
+    .modal-content,
+    .close {
         display: none;
     }
 }
@@ -127,7 +128,7 @@
         display: none;
         padding-top: 10px;
         position: fixed;
-        top: 10%;
+        top: 1%;
         width: 70%;
         left: 15%;
         overflow: auto;
