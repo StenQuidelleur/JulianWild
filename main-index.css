@@ -15,7 +15,6 @@ main {
 }
 
 .container {
-  width: 80%;
   margin: auto;
 }
 
@@ -81,6 +80,6 @@ main {
   }
   
   .text-country {
-    font-size: 8vw;
+    font-size: 7vw;
   }
 }
