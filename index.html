@@ -5,83 +5,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Julian Wild</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="footer.css">
   <link rel="stylesheet" href="main-index.css">
   <link rel="stylesheet" href="nav-index.css">
 </head>
 
 <body>
-    <nav>
-        <div class="topbar">
-            <input type="checkbox"/>
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="topbar-menu">
-                <li><a href="#" class="photograph">Julian Wild</a></li>
-                <li class="country"><a href="#">Country ></a>
-                    <ul>
-                        <li><a href="#">Brasil</a></li>
-                        <li><a href="#">Chile</a></li>
-                        <li><a href="#">Mexico</a></li>
-                        <li><a href="#">Peru</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Biography</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="julian">
-            <a href="index.html"></a>
-        </div>
-        <div class="social">
-            <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
-            <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
-        </div>
+  <header>
+    <nav class="menu-burger">
+      <div class="topbar">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul class="topbar-menu">
+              <li><a href="index.html" class="photograph">Julian Wild</a></li>
+              <li class="country"><a href="#">Country ></a>
+                  <ul>
+                      <li><a href="brasil.html">Brasil</a></li>
+                      <li><a href="chile.html">Chile</a></li>
+                      <li><a href="mexico.html">Mexico</a></li>
+                      <li><a href="peru.html">Peru</a></li>
+                  </ul>
+              </li>
+              <li><a href="biography.html">Biography</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <div class="julian">
+          <a href="index.html">JW</a>
+      </div>
+      <div class="social">
+          <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+          <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+      </div>
     </nav>
+    <nav class="nav-bar">
+      <a href="index.html" class="photograph">Julian Wild</a>
+      <div class="scrol">
+        <li class="country"><a href="#">Country</a>
+          <ul>
+              <li><a href="brasil.html">Brasil</a></li>
+              <li><a href="chile.html">Chile</a></li>
+              <li><a href="mexico.html">Mexico</a></li>
+              <li><a href="peru.html">Peru</a></li>
+          </ul>
+        </li>
+      </div>
+      <a href="biography.html">Biography</a>
+      <a href="contact.html">Contact</a>
+      <div class="social">
+        <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+        <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+      </div>
+    </nav>
+    <div id="slider">
+      <figure>
+        <img src="ImagesPages/landing_resized/image01.jpg" alt="...">
+        <img src="ImagesPages/landing_resized/image02.jpg" alt="...">
+        <img src="ImagesPages/landing_resized/image03.jpg" alt="...">
+        <img src="ImagesPages/landing_resized/image04.jpg" alt="...">
+        <img src="ImagesPages/landing_resized/image05.jpg" alt="...">
+      </figure>
+    </div>
+  </header>
   <main>
     <div class="container">
       <div class="container-country brasil">
-        <img src="ImagesPages/brazil-resized/image07.jpg" alt="Brasil" class="image">
+        <a href="brasil.html">
+          <img src="ImagesPages/brazil-resized/image07.jpg" alt="Brasil" class="image">
         <div class="overlay">
           <div class="text-country">BRASIL</div>
+          </a>
         </div>
       </div>
 
       <div class="container-country chile">
+        <a href="chile.html">
         <img src="ImagesPages/chile_resizied/image10.jpg" alt="Chile" class="image">
         <div class="overlay">
           <div class="text-country">CHILE</div>
+          </a>
         </div>
       </div>
 
       <div class="container-country">
+        <a href="mexico.html">
         <img src="ImagesPages/mexico_resized/image07.jpg" alt="Mexique" class="image">
         <div class="overlay">
           <div class="text-country">MEXICO</div>
+        </a>
         </div>
       </div>
 
       <div class="container-country">
+        <a href="peru.html">
         <img src="ImagesPages/peru_resized/image11.jpg" alt="Peru" class="image">
         <div class="overlay">
           <div class="text-country">PERU</div>
+          </a>
         </div>
       </div>
     </main>
 
   <footer>
-    <div class="icon">
-      <a class="pinterest" href="https://www.pinterest.com.au/" target="_blank"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
-      <a class="instagram" href="https://www.instagram.com/" target="_blank"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+    <div class="icon-footer">
+      <a class="pinterest-footer" href="https://www.pinterest.com.au/" target="_blank"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+      <a class="instagram-footer" href="https://www.instagram.com/" target="_blank"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
     </div>
     <div class="contact-footer">
-      <p class="newsletter">Newsletter</p>
-      <input class="email" type="text" name="email" value="" placeholder="email@contact.com">
+      <p class="newsletter-footer">Newsletter</p>
+      <input class="email-footer" type="text" name="email" value="" placeholder="email@contact.com">
       <a href="href="mailto:JWild@gmail.com"" target="_blank"><button class="button" type="button" name="button">Send</button></a>
     </div>
-    <p><a class="top" href="#top">Back to the top</a></p>
+    <p><a class="top-footer" href="#top">Back to the top</a></p>
   </footer>
 </body>
 

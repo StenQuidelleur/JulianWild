@@ -3,67 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="nav-index.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="headers.css">
     <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Peru</title>
 </head>
 <body>
-       <header class=peru>
-        <h1>PERU</h1>
-    </header>
-  
-    <div class="container"> 
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image01.jpg" alt="...2" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image02.jpg" alt="...3" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image03.jpg" alt="...4" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image04.jpg" alt="...5" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image05.jpg" alt="...6" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image06.jpg" alt="...7" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image07.jpg" alt="...8" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image08.jpg" alt="...9" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image09.jpg" alt="...10" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image10.jpg" alt="...11" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image11.jpg" alt="...12" onclick="onClick(this)" class="modal-hover-opacity" />
-        </figure>
-        <figure class="container1">
-          <img src="ImagesPages/peru_resized/image12.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity"/>
-        </figure>
-    
-        <div id="modal01" class="modal" onclick="this.style.display='none'">
-          <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-          <div class="modal-content">
-            <img id="img01">
+  <header>
+    <nav class="menu-burger">
+        <div class="topbar">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="topbar-menu">
+                <li><a href="index.html" class="photograph">Julian Wild</a></li>
+                <li class="country"><a href="#">Country ></a>
+                    <ul>
+                        <li><a href="brasil.html">Brasil</a></li>
+                        <li><a href="chile.html">Chile</a></li>
+                        <li><a href="mexico.html">Mexico</a></li>
+                        <li><a href="peru.html">Peru</a></li>
+                    </ul>  
+                </li>
+                <li><a href="biography.html">Biography</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </div>
+        <div class="julian">
+            <a href="index.html">JW</a>
+        </div>
+        <div class="social">
+            <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+            <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+        </div>
+    </nav>
+    <nav class="nav-bar">
+        <a href="index.html" class="photograph">Julian Wild</a>
+        <div class="scrol">
+        <li class="country"><a href="#">Country</a>
+            <ul>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="chile.html">Chile</a></li>
+                <li><a href="mexico.html">Mexico</a></li>
+                <li><a href="peru.html">Peru</a></li>
+            </ul>  
+        </li>
+        </div>
+        <a href="biography.html">Biography</a>
+        <a href="contact.html">Contact</a>
+        <div class="social">
+        <a href="#" title="Instagram"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+        <a href="#" title="Pinterest"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+        </div>
+    </nav>
+    <div id="baner" class="peru">
+      <h1>PERU</h1>
+    </div>
+  </header>
+    <main>
+      <div class="text">
+        <h2 id="text1" class="title-country">Quick story</h2>
+        <p id="text2" class="text-country">Located near Colombia and Brazil, The Peru is the 19th largest country in the world and the third largest in South America. It was home of several ancient cultures and by this fact has now a lot of cultural diversity, from Spanish Native to Inca and other old civilizations.</p>
+        <h2 id="text3" class="title-country">My personal throughts</h2>
+        <p id="text4" class="text-country">After my trip there, I learned a lot about cultural diversity and it helped me see the world with a different eye, a lot of photos that I took over there are trying to express those feelings the best way possible. With differents habitats ranging from arid to humid, it was a great experience for me.<p>
       </div>
-    
+      <div class="container"> 
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image01.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image02.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image03.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image04.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image05.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image06.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image07.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image08.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image09.jpg" alt="...1x" onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image10.jpg" alt="...1" onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image11.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery" />
+          </figure>
+          <figure class="container1">
+            <img src="ImagesPages/peru_resized/image12.jpg" alt="..." onclick="onClick(this)" class="modal-hover-opacity img-gallery"/>
+          </figure>
+          <div id="modal01" class="modal" onclick="this.style.display='none'">
+            <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <div class="modal-content">
+              <img id="img01">
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="icon-footer">
+          <a class="pinterest-footer" href="https://www.pinterest.com.au/" target="_blank"><img src="Logos/pinterest.svg" width="25px" height="25px"></a>
+          <a class="instagram-footer" href="https://www.instagram.com/" target="_blank"><img src="Logos/instagram.svg" width="25px" height="25px"></a>
+        </div>
+        <div class="contact-footer">
+          <p class="newsletter-footer">Newsletter</p>
+          <input class="email-footer" type="text" name="email" value="" placeholder="email@contact.com">
+          <a href="href="mailto:JWild@gmail.com"" target="_blank"><button class="button" type="button" name="button">Send</button></a>
+        </div>
+        <p><a class="top-footer" href="#top">Back to the top</a></p>
+      </footer>
       <script>
         function onClick(element) {
           document.getElementById("img01").src = element.src;
           document.getElementById("modal01").style.display = "block";
         }
       </script>
-
 </body>
 </html>
