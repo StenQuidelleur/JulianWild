@@ -20,15 +20,15 @@ body{
 }
 
 
-input, textarea, button {
+.form, textarea, button {
   font-size: 18px;
   border: 2px solid rgba(128, 128, 128, 0.5);
   color: rgb(85, 81, 81);
-  padding: 25px;
-  margin: 10px;
+  padding: 15px;
+  margin: 5px;
   border-radius: 20px;
   width: 50%;
-  box-shadow: 2px 4px rgba(173, 171, 171, 0.5);
+  box-shadow: 2px 4px rgba(173, 171, 171, 0.26);
   resize: none;
   outline: none;
 }
@@ -50,12 +50,11 @@ button {
 }
 
 label {
-  width: 100%;
+  display: none;
 }
 
-input[type=checkbox] {
-  box-shadow: none;
-  width: 2%;
+.form[type=checkbox] {
+  display: none;
 }
 
 
@@ -67,13 +66,13 @@ button:hover {
 }
 
 textarea:hover,
-input:hover {
+.form:hover {
   border: 2px solid #009DA5;
   box-shadow: 2px 4px #009DA5;
   transition: .2s;
 }
 
-input:focus,
+.form:focus,
 textarea:focus {
   background-color: rgba(0, 157, 165, 0.205);
   transition: .2s;
@@ -97,7 +96,7 @@ button:focus {
     width: 80%;
   }
 
-  input, textarea, button {
+  .form, textarea, button {
     font-size: 14px;
     padding: 15px;
     margin: 5px;
@@ -120,9 +119,10 @@ button:focus {
 
   label {
     width: 100%;
+    display: block;
   }
   
-  input[type=checkbox] {
+  .form[type=checkbox] {
     box-shadow: none;
     width: 5%;
   }
