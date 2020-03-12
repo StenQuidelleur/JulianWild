@@ -14,6 +14,7 @@
 
 	}
 
+
 	#baner.brasil{background: no-repeat center center / cover url("ImagesPages/title_resized/dessert-74568_1920.jpg");}
 	#baner.chile{background: no-repeat center center / cover url("ImagesPages/title_resized/chile-693065.jpg");}
 	#baner.mexico{background: no-repeat center center / cover url("ImagesPages/title_resized/landscape-695030.jpg");}
@@ -34,17 +35,12 @@
 		color: white;		
 		}
 
-
-	img.biocircle{opacity: 0;
+	
+	img.biocircle{display: none;
 		}
 
 
-	h1.tit_biode, h1.tit_contactde{
-			position: absolute;
-			/*color: #141414;*/
-			color: white;
-			opacity: 1;}
-	h1.tit_biomo, h1.tit_contactmo{opacity: 0;}
+	h1.tit_biomo, h1.tit_contactmo{display: none;}
 
 
 @media(max-width:641px){
@@ -57,62 +53,112 @@
 			/*padding-top:70px;*/
 
 			display: table;
-			/*position: relative;*/
+		
 	
 		}
 
 
-	#baner.bio{position: relative;
+	#baner.bio{
+display: table;
+position: relative;
 		}
 
 
 
 	h1{ display: table-cell; vertical-align: middle;
-		padding-top: 2%; 
+		padding-top: 4%; 
 		padding-left: 0;
 		text-align: center;
 		
      	/*top: 22%;*/
      	/*top:30px;*/
 		font-family: 'Mexicana';
-		font-size:3.5rem; 
+		font-size: 3.5rem; 
 		font-weight:lighter;
 		color: white;
 		}
 
 
 	h1.tit_biode, h1.tit_contactde{
-		opacity: 0;
+		display: none;
 		}
+
+
 	h1.tit_biomo{
-				opacity: 1;
-				/*color: #141414;*/
+				display: table-cell; vertical-align: middle;
 				color: white;
-				text-align: none;
-				position: absolute;
-				top:120px;
-				left: 248px;
+				width: 300px;
+				text-align: left;
+				padding-top: 10%; 
+				padding-left: 3%;
+			
 				}
 
 
 	h1.tit_contactmo{
-				opacity: 1;
+				display: table-cell; vertical-align: middle;
 				text-align: center;
 				width: 300px;
-				/*position: absolute;*/
-				/*top:90px; 
-				left:100px;*/
+			
 				
-				}			
+				}	
+
 	img.biocircle{
-				opacity: 1;
+				display: inline-block;
 				position: absolute;
-				top: 80px; left: 42px;
-				width: 40vw;height: 40vw;
+				top:29%;
+				left: 7%;
+				
+			
+				/*text-align: center;*/
+				width: 30vh;
+				height: 30vh;
 				border-radius: 50%;
 				object-fit: cover;
-				object-position: center;
+				/*object-position: center;*/
+
 				}
 		
 
 					}
+
+
+		@media(max-width: 552px){
+			
+			#baner.bio{
+
+				display: flex;
+				position: initial;				
+				flex-direction: column;
+				align-items: center;
+				padding-top: 20%;
+				}
+
+			img.biocircle{
+				position: initial;
+				width: 30vw;
+				height: 30vw;
+				/*display: block;*/
+				/*text-align: center;*/
+				}
+
+			h1.tit_biomo{
+				/*display: block;*/
+				position: initial;
+				font-size: 1.9rem;
+				width: initial;
+				
+				padding-top:3%;
+				padding-left: 0;
+				/*text-align: center;*/
+				/*padding-top: 10%; 
+				padding-left: 3%;*/
+			
+				}
+
+
+
+
+
+
+		}				
