@@ -1,4 +1,4 @@
-button {
+.button-footer {
   border-radius: 5px;
   height: 27px;
   width: 80px;
@@ -55,7 +55,7 @@ footer {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 641px) {
   footer {
     display: none;
   }
