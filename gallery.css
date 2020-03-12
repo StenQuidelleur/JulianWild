@@ -1,6 +1,6 @@
 .text {
-  width: 80%;
   margin: auto;
+  padding: 18px;
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 2rem;
@@ -38,6 +38,7 @@
   font-family: 'roboto';
   background-color: #009DA5;
   color: #FFF;
+  margin-top: 20px;
   padding: 15px;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -45,6 +46,10 @@
 
 .text-country {
   font-family: 'roboto';
+  line-height: 2rem;
+  color: #141414;
+  font-size: 1.5em;
+  text-align: justify;
 }
 
 .img-gallery {
@@ -52,10 +57,9 @@
 }
 
 .container {
-  margin: auto;
+  margin: 20px auto;
   display: grid;
   grid-template-columns: auto auto auto;
-  width: 80%;
 }
 
 .container1 {
@@ -74,11 +78,53 @@
   .container {
     grid-template-columns: auto auto;
   }
+
+  .modal, .modal-content
+   {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .container {
     grid-template-columns: auto;
+  }
+
+  .text {
+    grid-template-columns: auto;
+  }
+
+  #text1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  #text2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  #text3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  
+  #text4 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+
+  .modal, .modal-content
+   {
+    display: none;
   }
 }
 
@@ -88,17 +134,16 @@
     display:none;
     padding-top:10px;
     position:fixed;
-    width:80%;
-    left: 10%;
+    top: 10%;
+    width: 70%;
+    left: 15%;
     overflow:auto;
-    background-color:rgb(0,0,0);
-    background-color:
+    background-color:#00000069;
   }
   
   .modal-content{
     margin: auto;
     display: block;
-    width: 90%;
     left: 50%;
   }
 
@@ -127,6 +172,7 @@
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
     animation-duration: 0.6s;
+    width: 100%;
   }
   
   @-webkit-keyframes zoom {
