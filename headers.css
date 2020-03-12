@@ -59,7 +59,13 @@
 	
 		}
 
+<<<<<<< HEAD
+	header.bio{
+		/*display: flex;*/
+		position: relative;
+=======
 	#baner.bio{position: relative;
+>>>>>>> 440763e8d0183d17c32a193e69aff047e0e8af48
 	
 		}
 
@@ -104,7 +110,7 @@
 				opacity: 1;
 				position: absolute;
 				top: 80px; left: 42px;
-				width: 217px;height: 217px;
+				width: 40vw;height: 40vw;
 				border-radius: 50%;
 				object-fit: cover;
 				object-position: center;
