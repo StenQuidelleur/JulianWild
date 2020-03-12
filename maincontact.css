@@ -7,11 +7,16 @@
 
 /* UNIQUEMENT POUR GET */
 h3{
+  text-align: center;
   padding: 100px;
+  font-size: 18px;
+  color: #141414;
+  font-family: Helvetica, Arial, sans-serif;
 }
 /* UNIQUEMENT POUR GET */
 
-body{
+.formulairediv{
+  width: 100%;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 18px;
   color: #141414;
