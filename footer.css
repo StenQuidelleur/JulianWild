@@ -14,6 +14,11 @@ footer {
   width: 30px;
 }
 
+.arrow-footer:hover {
+  opacity: 0.5;
+
+}
+
 .button-footer {
   border-radius: 5px;
   height: 35px;
