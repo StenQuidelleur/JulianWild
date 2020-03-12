@@ -20,7 +20,7 @@ body{
 }
 
 
-.form, textarea, button {
+.form, textarea, .button-contact {
   font-size: 18px;
   border: 2px solid rgba(128, 128, 128, 0.5);
   color: rgb(85, 81, 81);
@@ -38,7 +38,7 @@ textarea {
 }
 
 
-button {
+.button-contact {
   height: 70px;
   padding: 0px;
   display: inline-block;
@@ -58,7 +58,7 @@ label {
 }
 
 
-button:hover {
+.button-contact:hover {
   border: none;
   color: #FFFFFF;
   background-color: rgba(0, 157, 165, 0.342);
@@ -78,7 +78,7 @@ textarea:focus {
   transition: .2s;
 }
 
-button:focus {
+.button-contact:focus {
   background-color: #009DA5;
   transition: .2s;
 }
@@ -96,7 +96,7 @@ button:focus {
     width: 80%;
   }
 
-  .form, textarea, button {
+  .form, textarea, .button-contact {
     font-size: 14px;
     padding: 15px;
     margin: 5px;
@@ -109,7 +109,7 @@ button:focus {
     height: 100px;
   }
 
-  button {
+  .button-contact {
     height: 50px;
     padding: 0px;
     display: inline-block;
