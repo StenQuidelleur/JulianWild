@@ -1,5 +1,6 @@
 .text {
   margin: auto;
+  padding: 18px;
   display: grid;
   grid-template-columns: auto auto;
   column-gap: 2rem;
@@ -47,6 +48,8 @@
   font-family: 'roboto';
   line-height: 2rem;
   color: #141414;
+  font-size: 1.5em;
+  text-align: justify;
 }
 
 .img-gallery {
