@@ -9,10 +9,7 @@
 #baner{
 	width:100%;
 	height:350px;
-	/*padding-top:70px;	*/
 	display: table;
-	/*position: relative;*/
-
 	}
 
 
@@ -26,13 +23,9 @@
 	h1{ display: table-cell; vertical-align: middle;
 		padding-left: 17.5%;
 		padding-top: 4%;
-		/*position: absolute;*/
-    /*	left: 22%;
-     	top: 12%;*/
 		font-family: 'Mexicana';
 		font-size:4.2rem; 
 		font-weight:lighter;
-		/*margin-left: 250px;*/
 		color: white;		
 		}
 
@@ -44,122 +37,126 @@
 	h1.tit_biomo, h1.tit_contactmo{display: none;}
 
 
-@media(max-width:641px){
-	
-
-	#baner{
-			width:100%;
-			height:350px;
-			/*margin:-22px;*/
-			/*padding-top:70px;*/
-
-			display: table;
-		
-	
-		}
-
-
-	#baner.bio{
-display: table;
-position: relative;
-		}
 
 
 
-	h1{ display: table-cell; vertical-align: middle;
-		padding-top: 4%; 
-		padding-left: 0;
-		text-align: center;
-		
-     	/*top: 22%;*/
-     	/*top:30px;*/
-		font-family: 'Mexicana';
-		font-size: 3.5rem; 
-		font-weight:lighter;
-		color: white;
-		}
 
 
-	h1.tit_biode, h1.tit_contactde{
-		display: none;
-		}
+
+		@media(max-width:641px){
+
+					#baner{
+							width:100%;
+							height:350px;
+							display: table;
+						}
 
 
-	h1.tit_biomo{
-				display: table-cell; vertical-align: middle;
-				color: white;
-				width: 300px;
-				text-align: left;
-				padding-top: 10%; 
-				padding-left: 3%;
-			
-				}
+					#baner.bio{
+						display: table;
+						position: relative;
+						}
 
 
-	h1.tit_contactmo{
-				display: table-cell; vertical-align: middle;
-				text-align: center;
-				width: 300px;
-			
-				
-				}	
 
-	img.biocircle{
-				display: inline-block;
-				position: absolute;
-				top:29%;
-				left: 7%;
-				
-			
-				/*text-align: center;*/
-				width: 30vh;
-				height: 30vh;
-				border-radius: 50%;
-				object-fit: cover;
-				/*object-position: center;*/
+					h1{ 
+						display: table-cell; 
+						vertical-align: middle;
+						padding-top: 4%; 
+						padding-left: 0;
+						text-align: center;
+						
 
-				}
-		
-
-					}
+						font-family: 'Mexicana';
+						font-size: 3.5rem; 
+						font-weight:lighter;
+						color: white;
+						}
 
 
-		@media(max-width: 552px){
-			
-			#baner.bio{
+					h1.tit_biode, h1.tit_contactde{
+						display: none;
+						}
 
-				display: flex;
-				position: initial;				
-				flex-direction: column;
-				align-items: center;
-				padding-top: 20%;
-				}
-
-			img.biocircle{
-				position: initial;
-				width: 30vw;
-				height: 30vw;
-				/*display: block;*/
-				/*text-align: center;*/
-				}
 
 			h1.tit_biomo{
-				/*display: block;*/
-				position: initial;
-				font-size: 1.9rem;
-				width: initial;
+						display: table-cell; vertical-align: middle;
+						color: white;
+						width: 300px;
+						text-align: left;
+						padding-top: 10%; 
+						padding-left: 3%;			
+						}
+
+
+			h1.tit_contactmo{
+						display: table-cell; vertical-align: middle;
+						text-align: center;
+						width: 300px;
+						}	
+
+			img.biocircle{
+						display: inline-block;
+						position: absolute;
+						top:29%;
+						left: 7%;
+						width: 27vh;
+						height: 27vh;
+						border-radius: 50%;
+						object-fit: cover;
+
+						}
 				
-				padding-top:3%;
-				padding-left: 0;
-				/*text-align: center;*/
-				/*padding-top: 10%; 
-				padding-left: 3%;*/
-			
-				}
+
+							}
 
 
 
 
 
 
-		}				
+
+
+				@media(max-width: 552px){
+					
+					#baner.bio{
+						display: flex;				
+						position: initial;
+						flex-direction: column;
+						align-items: center;
+						padding-top: 20%;
+						}
+					
+					img.biocircle{
+						position: initial;
+						
+						width: 30vw;
+						height: 30vw;
+						}
+
+
+					#julspace{
+						content:'';
+						flex-basis:20px; 
+						flex-shrink:0; 
+						}
+
+
+					h1.tit_biomo{
+					
+						position: initial;
+						font-size: 1.9rem;
+						width: initial;
+						
+						padding-top:2.5%;
+						padding-left: 0;
+						text-align: center;
+
+						}
+
+
+
+
+
+
+				}				
